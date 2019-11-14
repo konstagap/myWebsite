@@ -9687,8 +9687,8 @@ header.masthead h1 {
   bottom: 0;
   text-align: center;
   opacity: 0;
-  color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  color: rgb(0, 0, 0);
+  background: rgba(231, 227, 227, 0.924);
   transition: opacity 0.25s ease;
   text-align: center;
 }

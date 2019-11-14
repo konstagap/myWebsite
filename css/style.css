@@ -38,3 +38,6 @@ transition: all 0.2s ease-in-out;
   max-width: 500px;
   max-height: 400px;
 }
+.textWhite{
+  color:white !important;
+}
