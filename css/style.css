@@ -34,3 +34,7 @@ transition: all 0.2s ease-in-out;
 .socialIcon:hover{
   transform: scale(1.1);
 }
+.avatar{
+  max-width: 500px;
+  max-height: 400px;
+}
