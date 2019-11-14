@@ -26,9 +26,7 @@
   <link rel="stylesheet" href="css/style.css">
 
 </head>
-
 <body id="page-top">
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
@@ -55,7 +53,6 @@
       </div>
     </div>
   </nav>
-
   <!-- Masthead -->
   <header class="masthead">
     <div class="container h-100">
@@ -72,7 +69,7 @@
   </header>
   <span></span>
   <!-- About Section -->
-  <section class="page-section">
+  <section class="page-section about">
     <div class="container p-4 " id="about">
       <div class="row">
         <div class="col-sm-12 col-lg-6">
@@ -95,7 +92,7 @@
     </div>
   </section>
   <!-- Services Section -->
-  <section class="page-section ">
+  <section class="page-section skills">
     <div class="container">
       <h2 class="text-center mt-0" id="services">Skills List</h2>
       <hr class="divider my-4">
@@ -135,175 +132,37 @@
       </div>
     </div>
   </section>
-
   <!-- Portfolio Section -->
   <section class="portfolio">
     <h2 class="text-center mt-0" id="portfolio">Portfolio</h2>
     <hr class="divider my-4">
     <br>
-
-    <div class="container-fluid ">
-      <div class="row no-gutters text-center">
-        <div class="col-lg-3">
-          <div class="work">
-            <div class="overlay">
-              <h2 class="over-title">Crystal Collector</h2>
-              <p class="over-summary">Click on crystals, get points!</p>
-              <p class="over-tech">Jquery</p>
-              <a href="https://github.com/konstagap/Crystal-Collector" target="_blank">
-                <img class="over-git" src="./img/techicons/GitHub-Mark-64px.png" style="height: 48px; width: 48px">
-              </a>
-              <a href="https://konstagap.github.io/Crystal-Collector/" target="_blank">
-                <p class="over-learn mx-auto">OPEN APP</p>
-              </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card portfolio-cards mt-2">
+            <div class="card-body">
+             <img src="./img/portfolio/myCollection/1.png" class="card-img-top" alt="Crystal Collector Game">
             </div>
-            <img src="./img/portfolio/myCollection/1.png" alt="Outdoor news" class="img-fluid ">
-          </div>
-        </div>
-        <div class="col-lg-3 ">
-          <div class="work">
-            <div class="overlay">
-              <h2 class="over-title">Trivia Game</h2>
-              <p class="over-summary">Working with timmers, answer 3 questions in 30 seconds</p>
-              <p class="over-tech">Jquery, timmers </p>
-              <a href="https://konstagap.github.io/TriviaGame/" target="_blank">
-                <img class="over-git" src="./img/techicons/GitHub-Mark-64px.png" style="height: 48px; width: 48px">
-              </a>
-              <a href="https://github.com/konstagap/TriviaGame" target="_blank">
-                <p class="over-learn mx-auto">OPEN APP</p>
-              </a>
-            </div>
-            <img src="./img/portfolio/myCollection/2.jpg" alt="TriviaGame" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-lg-3 ">
-          <div class="work">
-            <div class="overlay">
-              <h2 class="over-title">Better Doctor</h2>
-              <p class="over-summary">Application to find doctor who speaks same language with you</p>
-              <p class="over-tech">Jquery,API, Materialize CSS</p>
-              <a href="https://konstagap.github.io/TriviaGame/" target="_blank">
-                <img class="over-git" src="./img/techicons/GitHub-Mark-64px.png" style="height: 48px; width: 48px">
-              </a>
-              <a href="https://github.com/konstagap/TriviaGame" target="_blank">
-                <p class="over-learn mx-auto">OPEN APP</p>
-              </a>
-            </div>
-            <img src="./img/portfolio/myCollection/3.jpg" alt="TriviaGame" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-lg-3 ">
-          <div class="work">
-            <div class="overlay">
-              <h2 class="over-title">Friend Finder</h2>
-              <p class="over-summary">Dating app.</p>
-              <p class="over-tech">Node and Express Servers</p>
-              <a href="https://github.com/konstagap/FriendFinder" target="_blank">
-                <img class="over-git" src="./img/techicons/GitHub-Mark-64px.png" style="height: 48px; width: 48px">
-              </a>
-              <a href="https://pure-anchorage-17715.herokuapp.com/" target="_blank">
-                <p class="over-learn mx-auto">OPEN APP</p>
-              </a>
-            </div>
-            <img src="./img/portfolio/myCollection/4.jpg" alt="TriviaGame" class="img-fluid">
-          </div>
-        </div>
-      </div>
-      <div class="row no-gutters text-center">
-        <div class="col-lg-3 ">
-          <div class="work">
-            <div class="overlay">
-              <h2 class="over-title">Liri</h2>
-              <p class="over-summary">Command line node app that takes in parameters and gives you back data.</p>
-              <p class="over-tech">Node.js</p>
-              <a href="https://github.com/konstagap/liri-node-app" target="_blank">
-                <img class="over-git" src="./img/techicons/GitHub-Mark-64px.png" style="height: 48px; width: 48px">
-              </a>
-              <a href="https://www.youtube.com/watch?v=2XCYJSKVl9U&feature=youtu.be" target="_blank">
-                <p class="over-learn mx-auto">Demo on YouTube</p>
-              </a>
-            </div>
-            <img src="./img/portfolio/myCollection/5.jpg" alt="Liri" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-lg-3 ">
-          <!-- <div class="work"> -->
-            <div class="overlay">
-              <h2 class="over-title">Eat Burger</h2>
-              <p class="over-summary">This app is a burger logger</p>
-              <p class="over-tech"> MySQL, Node, Express, Handlebars</p>
-              <a href="https://github.com/konstagap/burger" target="_blank">
-                <img class="over-git" src="./img/techicons/GitHub-Mark-64px.png" style="height: 48px; width: 48px">
-              </a>
-              <a href="https://shrouded-forest-87900.herokuapp.com/" target="_blank">
-                <p class="over-learn mx-auto">OPEN APP ON HEROKU</p>
-              </a>
-            </div>
-            <img src="./img/portfolio/myCollection/6.jpg" alt="eat a burger pic" class="img-fluid">
-          <!-- </div> -->
-        </div>
-        <div class="col-lg-3 ">
-          <div class="work">
-            <div class="overlay">
-              <h2 class="over-title">React Clicky Game</h2>
-              <p class="over-summary">Application's UI is breaked into components, with
-                React we manage states, and respond to user events</p>
-              <p class="over-tech">React.js</p>
-              <a href="https://github.com/konstagap/click-it" target="_blank">
-                <img class="over-git" src="./img/techicons/GitHub-Mark-64px.png" style="height: 48px; width: 48px">
-              </a>
-              <a href="https://mortal-kombat-cliky.herokuapp.com/" target="_blank">
-                <p class="over-learn mx-auto">OPEN APP ON HEROKU</p>
-              </a>
-            </div>
-            <img src="./img/portfolio/myCollection/7.jpg" alt="TriviaGame" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-lg-3 ">
-          <div class="work">
-            <div class="overlay">
-              <h2 class="over-title">Bring</h2>
-              <p class="over-summary">React app for renting surfboards</p>
-              <p class="over-tech">Mongo, Express, React, Node, React Bootstrap and more</p>
-              <a href="https://github.com/mike-4040/ucsd-final-project" target="_blank">
-                <img class="over-git" src="./img/techicons/GitHub-Mark-64px.png" style="height: 48px; width: 48px">
-              </a>
-              <a href="http://bring-ucsd.herokuapp.com/" target="_blank">
-                <p class="over-learn mx-auto">OPEN APP ON HEROKU</p>
-              </a>
-            </div>
-            <img src="./img/portfolio/myCollection/8.jpg" alt="Bring app" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- 
-    <div class="container ">
-      <div class="row ">
-    <div class="col-sm-4">
-          <div class="card portfolio-cards">
-            <img src="./img/portfolio/myCollection/1.png" class="card-img-top" alt="Crystal Collector Game">
             <div class="card-body text-center">
               <h4 class="card-title">Crystal Collector</h4>
               <p class="card-text">Click on crystals, get points, try to get as many points as random number shows.</p>
             </div>
             <div class="card-body text-center">
               <div class="row">
-                <div class="col-sm-6">
-                  <a href="https://github.com/konstagap/unit-4-game"><img src="./img/techicons/GitHub-Mark-64px.png" alt=""></a>
-
-                </div>
-                <div class="col-sm-6">
-                  <a class="" href="https://konstagap.github.io/unit-4-game/">Open App</a>
-
-                </div>
+                <ul>
+                  <li><a href="https://github.com/konstagap/Crystal-Collector">Github code link</a></li>
+                  <li><a href="https://konstagap.github.io/Crystal-Collector/">Link to application</a></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-    <div class="col-sm-4">
-          <div class="card portfolio-cards">
-            <img src="./img/portfolio/myCollection/2.jpg" class="card-img-top" alt="Crystal Collector Game">
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card portfolio-cards mt-2">
+            <div class="card-body">
+              <img src="./img/portfolio/myCollection/2.jpg" class="card-img-top" alt="Crystal Collector Game">
+            </div>
             <div class="card-body text-center">
               <h4 class="card-title">Trivia Game</h4>
               <p class="card-text">Working with timmers, answer 3 questions in 30 seconds</p>
@@ -316,9 +175,11 @@
             </div>
           </div>
         </div>
-    <div class="col-sm-4">
-          <div class="card portfolio-cards">
-            <img src="./img/portfolio/myCollection/3.jpg" class="card-img-top" alt="Crystal Collector Game">
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card portfolio-cards mt-2">
+            <div class="card-body">
+              <img src="./img/portfolio/myCollection/3.jpg" class="card-img-top" alt="Crystal Collector Game">
+            </div>
             <div class="card-body text-center">
               <h4 class="card-title">Better Doctor</h4>
               <p class="card-text">Application to find doctor who speaks same language with you.</p>
@@ -331,11 +192,11 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="card portfolio-cards">
-            <img src="./img/portfolio/myCollection/4.jpg" class="card-img-top" alt="Crystal Collector Game">
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card portfolio-cards mt-2">
+            <div class="card-body">
+              <img src="./img/portfolio/myCollection/4.jpg" class="card-img-top" alt="Crystal Collector Game">
+            </div>
             <div class="card-body text-center">
               <h4 class="card-title">Friend Finder</h4>
               <p class="card-text">Dating app.Node and Express Servers</p>
@@ -348,9 +209,13 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="card portfolio-cards">
-            <img src="./img/portfolio/myCollection/5.jpg" class="card-img-top" alt="Crystal Collector Game">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card portfolio-cards mt-2">
+            <div class="card-body">
+              <img src="./img/portfolio/myCollection/5.jpg" class="card-img-top" alt="Crystal Collector Game">
+            </div>
             <div class="card-body text-center">
               <h4 class="card-title">Liri.Node application</h4>
               <p class="card-text">LIRI is a command line node app that takes in parameters and gives you back data.</p>
@@ -364,14 +229,14 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="card portfolio-cards">
-            <img src="./img/portfolio/myCollection/6.jpg" class="card-img-top" alt="Crystal Collector Game">
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card portfolio-cards  mt-2">
+            <div class="card-body">
+              <img src="./img/portfolio/myCollection/6.jpg" class="card-img-top" alt="Crystal Collector Game">
+            </div>
             <div class="card-body text-center">
               <h4 class="card-title">Eat Burger</h4>
-              <p class="card-text">This app is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM
-                following the MVC design pattern; using Node and MySQL to query and route data in app, and Handlebars to
-                generate HTML.</p>
+              <p class="card-text">MySQL, Node, Express, Handlebars</p>
             </div>
             <div class="card-body">
               <ul>
@@ -381,96 +246,86 @@
             </div>
           </div>
         </div>
-
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card portfolio-cards mt-2">
+            <div class="card-body">
+              <img src="./img/portfolio/myCollection/7.jpg" class="card-img-top" alt="Crystal Collector Game">
+            </div>
+            <div class="card-body text-center">
+              <h4 class="card-title">React Clicky Game</h4>
+              <p class="card-text">Application's UI is breaked into components, with
+                React we manage states, and respond to user events.</p>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li><a href="https://github.com/konstagap/click-it">Github code link</a></li>
+                <li><a href="https://mortal-kombat-cliky.herokuapp.com/">Link to application on Heroku</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+          <div class="card portfolio-cards mt-2">
+            <div class="card-body">
+              <img src="./img/portfolio/myCollection/8.jpg" class="card-img-top" alt="Crystal Collector Game">
+            </div>
+            <div class="card-body text-center">
+              <h4 class="card-title">Bring </h4>
+              <p class="card-text">React app for renting surfboards. Mongo, Express, React, Node, React Bootstrap and
+                more</p>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li><a href="https://github.com/mike-4040/ucsd-final-project">Github code link</a></li>
+                <li><a href="http://bring-ucsd.herokuapp.com/">Link to application on Heroku</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row">
-
-        <div class="col-sm-4">
-          <div class="card portfolio-cards">
-            <img src="./img/portfolio/myCollection/7.jpg" class="card-img-top" alt="Crystal Collector Game">
-            <div class="card-body text-center">
-              <h4 class="card-title">React Clicky Game</h4>
-              <p class="card-text">This app is created with React, application's UI is breaked into components, with
-                React we manage states, and respond to user events.</p>
-            </div>
-            <div class="card-body">
-              <ul>
-                <li><a href="https://github.com/konstagap/click-it">Github code link</a></li>
-                <li><a href="https://mortal-kombat-cliky.herokuapp.com/">Link to application on Heroku</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-4">
-          <div class="card portfolio-cards">
-            <img src="./img/portfolio/myCollection/7.jpg" class="card-img-top" alt="Crystal Collector Game">
-            <div class="card-body text-center">
-              <h4 class="card-title">React Clicky Game</h4>
-              <p class="card-text">This app is created with React, application's UI is breaked into components, with
-                React we manage states, and respond to user events.</p>
-            </div>
-            <div class="card-body">
-              <ul>
-                <li><a href="https://github.com/konstagap/click-it">Github code link</a></li>
-                <li><a href="https://mortal-kombat-cliky.herokuapp.com/">Link to application on Heroku</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-4">
-          <div class="card portfolio-cards">
-            <img src="./img/portfolio/myCollection/7.jpg" class="card-img-top" alt="Crystal Collector Game">
-            <div class="card-body text-center">
-              <h4 class="card-title">React Clicky Game</h4>
-              <p class="card-text">This app is created with React, application's UI is breaked into components, with
-                React we manage states, and respond to user events.</p>
-            </div>
-            <div class="card-body">
-              <ul>
-                <li><a href="https://github.com/konstagap/click-it">Github code link</a></li>
-                <li><a href="https://mortal-kombat-cliky.herokuapp.com/">Link to application on Heroku</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </div> -->
+    </div>
+    </div>
   </section>
-
   <!-- Contact Section -->
-  <section class="page-section " id="contact">
+  <section class="page-section contact" id="contact">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">Let's Get In Touch!</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and
-            we
+          <p class="text-muted mb-5">Ready to start your next project? Give me a call or send an email and
+            I
             will get back to you as soon as possible!</p>
+           <p class="mb-5"><a href="./cv/Resume.pdf"download>Here</a> you can download my resume! </p> 
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
+        <div class="col-lg-3 ml-auto text-center mb-4 ">
+          <img  class="socialIcon" src="./img/techicons/phone.png" alt="">
+          <div>+1 (929) 294-5554</div>
         </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+        <div class="col-lg-3  text-center mb-4">
+            <a class="d-block" href="mailto:konstagapov123@gmail.com"><img  class="socialIcon" src="./img/techicons/email.png" alt="" srcset=""></a>
+          
           <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+          <span>konstagapov123@gmail.com</span>
+        </div>
+        <div class="col-lg-3  text-center mb-4">
+          <a class="d-block" href="https://www.linkedin.com/in/kostiantyn-agapov/"><img class="socialIcon"
+              src="./img/techicons/linkedin.png" alt="" srcset=""></a>
+        </div>
+        <div class="col-lg-3  text-center mb-4">
+          <a class="d-block" href="https://github.com/konstagap"><img class="socialIcon" src="./img/techicons/github.png" alt=""
+              srcset=""></a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-light py-5">
+  <footer class="footer py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+      <div class="small text-center text-muted">Kostiantyn Agapov 2019</div>
     </div>
   </footer>
 

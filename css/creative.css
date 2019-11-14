@@ -9707,21 +9707,3 @@ header.masthead h1 {
 .portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-.imageBox{
-   width: 150px;
-  height: 150px;
-}
-.icons{
- max-height: 100%;
-  max-width: 100%;
-}
-
-.portfolio-cards {
-  height: 500px;
-  margin-bottom:25px;
-  -webkit-box-shadow: 7px 7px 10px 0px rgba(184,184,184,1);
--moz-box-shadow: 7px 7px 10px 0px rgba(184,184,184,1);
-box-shadow: 7px 7px 10px 0px rgba(184,184,184,1);
-}
-.card-img-top{
-  max-height:200px;}
