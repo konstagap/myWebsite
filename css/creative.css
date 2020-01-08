@@ -4495,8 +4495,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler {
-  color:black;
-  border-color:black;
+  color: black;
+  border-color: black;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -10006,7 +10006,7 @@ hr.light {
 }
 
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 17em;
   padding-bottom: calc(10rem - 72px);
   /* background: linear-gradient(to bottom, rgba(67, 68, 88, 0.089) 5%, rgba(58, 58, 65, 0.418) 100%), url("../img/bg-masthead.jpg"); */
   background-position: center;
