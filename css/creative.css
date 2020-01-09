@@ -10020,6 +10020,7 @@ header.masthead h1 {
 }
 
 @media (min-width: 992px) {
+  
   header.masthead {
     min-height: 40rem;
     padding-top: 72px;
@@ -10032,13 +10033,22 @@ header.masthead h1 {
     font-size: 3rem;
   }
 }
+@media (max-width: 992px) {
+  header.masthead {
+    padding-top: 10em;}
+  header.masthead p {
+    font-size: 1.7rem;
+  }
+  header.masthead h1 {
+    font-size: 2.4rem;
+  }
+}
 
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.5rem;
   }
 }
-
 .portfolio .container-fluid {
   max-width: 1920px;
 }
