@@ -44,19 +44,19 @@ function isScrolledIntoView(elem) {
 class TypeWriter {
   constructor(txtElement) {
     this.txtElement = txtElement;
+    this.beer = "&#127866";
     this.words = [
-      "Hello!",
-      "Ciao!",
-      "Bonjour!",
-      "Willkommen!",
-      "Hallå!",
-      "Hola!",
-      "Здраво:)",
-      "Ahoj!",
-      "Merhaba!",
-      "Привіт!",
-      "Cześć!",
-      "Καλημέρα",
+      "Hello &#128513",
+      "Ciao",
+      "Bonjour",
+      "Willkommen",
+      "Hallå",
+      "Hola",
+      "Здраво&#129309",
+      "Ahoj",
+      "Merhaba",
+      `Привіт!${this.beer}`,
+      "Cześć",
       "欢迎",
       "नमस्ते",
       "ようこそ",
@@ -65,7 +65,7 @@ class TypeWriter {
     ];
     this.txt = "";
     this.wordIndex = 0;
-    this.wait = 1000;
+    this.wait = 1400;
     this.type();
     this.isDeleting = false;
   }
@@ -89,10 +89,10 @@ class TypeWriter {
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
     // Initial Type Speed
-    let typeSpeed = 300;
+    let typeSpeed = 250;
 
     if (this.isDeleting) {
-      typeSpeed /= 2;
+      typeSpeed /= 1.4;
     }
 
     // If word is complete
@@ -120,5 +120,5 @@ document.addEventListener("DOMContentLoaded", init);
 function init() {
   const txtElement = document.querySelector(".txt-type");
   // Init TypeWriter
-  new TypeWriter(txtElement);
+  setTimeout(() => new TypeWriter(txtElement), 1300);
 }
