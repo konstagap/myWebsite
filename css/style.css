@@ -133,3 +133,10 @@ video {
   object-fit: cover;
   height: 100vh;
 }
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid rgb(255, 255, 255);
+  font-family: "Armata", sans-serif;
+  letter-spacing: 5px;
+}
