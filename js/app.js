@@ -44,7 +44,25 @@ function isScrolledIntoView(elem) {
 class TypeWriter {
   constructor(txtElement) {
     this.txtElement = txtElement;
-    this.words = ["Hello", "Ahoy", "Willkommen", "Bonjour", "欢迎", "ようこそ"];
+    this.words = [
+      "Hello!",
+      "Ciao!",
+      "Bonjour!",
+      "Willkommen!",
+      "Hallå!",
+      "Hola!",
+      "Здраво:)",
+      "Ahoj!",
+      "Merhaba!",
+      "Привіт!",
+      "Cześć!",
+      "Καλημέρα",
+      "欢迎",
+      "नमस्ते",
+      "ようこそ",
+      "שלום",
+      "Sawubona"
+    ];
     this.txt = "";
     this.wordIndex = 0;
     this.wait = 1000;
