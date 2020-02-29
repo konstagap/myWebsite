@@ -2422,13 +2422,12 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #162029bd;
-  border-color: #162029e3;
+  border: 1px solid #fff !important;
 }
 
 .btn-primary:hover {
   color: #fff;
   background-color: #1620299a;
-  border-color: #162029e3;
 }
 
 .btn-secondary {
@@ -10005,52 +10004,11 @@ hr.light {
   }
 }
 
-header.masthead {
-  padding-top: 17em;
-  padding-bottom: calc(10rem - 72px);
-  /* background: linear-gradient(to bottom, rgba(67, 68, 88, 0.089) 5%, rgba(58, 58, 65, 0.418) 100%), url("../img/bg-masthead.jpg"); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-header.masthead h1 {
-  font-size: 2.25rem;
-}
-
-@media (min-width: 992px) {
-  
-  header.masthead {
-    min-height: 40rem;
-    padding-top: 72px;
-    padding-bottom: 0;
-  }
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
-}
-@media (max-width: 992px) {
-  header.masthead {
-    padding-top: 10em;}
-  header.masthead p {
-    font-size: 1.7rem;
-  }
-  header.masthead h1 {
-    font-size: 2.4rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 3.5rem;
-  }
-}
 .portfolio .container-fluid {
   max-width: 1920px;
+}
+.masthead {
+  padding-top: 100px;
 }
 
 .portfolio .container-fluid .portfolio-box {
