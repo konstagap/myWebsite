@@ -1,10 +1,10 @@
-$(function() {
-  var $blocks = $(".animBlock.notViewed");
+$(function () {
+  var $blocks = $('.animBlock.notViewed');
   var $window = $(window);
 
-  $window.on("scroll", function(e) {
-    $blocks.each(function(i, elem) {
-      if ($(this).hasClass("viewed")) return;
+  $window.on('scroll', function (e) {
+    $blocks.each(function (i, elem) {
+      if ($(this).hasClass('viewed')) return;
 
       isScrolledIntoView($(this));
     });
@@ -16,8 +16,8 @@ function isScrolledIntoView(elem) {
   var docViewBottom = docViewTop + $(window).height();
   var elemOffset = 0;
 
-  if (elem.data("offset") != undefined) {
-    elemOffset = elem.data("offset");
+  if (elem.data('offset') != undefined) {
+    elemOffset = elem.data('offset');
   }
   var elemTop = $(elem).offset().top;
   var elemBottom = elemTop + $(elem).height();
@@ -35,35 +35,33 @@ function isScrolledIntoView(elem) {
 
   if (elemBottom <= docViewBottom && elemTop >= docViewTop) {
     // once an element is visible exchange the classes
-    $(elem)
-      .removeClass("notViewed")
-      .addClass("viewed");
+    $(elem).removeClass('notViewed').addClass('viewed');
   }
 }
 
 class TypeWriter {
   constructor(txtElement) {
     this.txtElement = txtElement;
-    this.beer = "&#127866";
+    this.beer = '&#127866';
     this.words = [
-      "Hello &#128513",
-      "Ciao",
-      "Bonjour",
-      "Willkommen",
-      "Hallå",
-      "Hola",
-      "Здраво&#129309",
-      "Ahoj",
-      "Merhaba",
+      'Hello &#128513',
+      'Ciao',
+      'Bonjour',
+      'Willkommen',
+      'Hallå',
+      'Hola',
+      'Здраво&#129309',
+      'Ahoj',
+      'Merhaba',
       `Привіт!${this.beer}`,
-      "Cześć",
-      "欢迎",
-      "नमस्ते",
-      "ようこそ",
-      "שלום",
-      "Sawubona"
+      'Cześć',
+      '欢迎',
+      'नमस्ते',
+      'ようこそ',
+      'שלום',
+      'Sawubona'
     ];
-    this.txt = "";
+    this.txt = '';
     this.wordIndex = 0;
     this.wait = 1400;
     this.type();
@@ -101,7 +99,7 @@ class TypeWriter {
       typeSpeed = this.wait;
       // Set delete to true
       this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === "") {
+    } else if (this.isDeleting && this.txt === '') {
       this.isDeleting = false;
       // Move to next word
       this.wordIndex++;
@@ -114,11 +112,11 @@ class TypeWriter {
 }
 
 // Init On DOM Load
-document.addEventListener("DOMContentLoaded", init);
+document.addEventListener('DOMContentLoaded', init);
 
 // Init App
 function init() {
-  const txtElement = document.querySelector(".txt-type");
+  const txtElement = document.querySelector('.txt-type');
   // Init TypeWriter
   setTimeout(() => new TypeWriter(txtElement), 1300);
 }
